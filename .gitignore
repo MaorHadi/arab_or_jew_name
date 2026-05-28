@@ -1,0 +1,4 @@
+.venv
+.env
+logistic_regression/names.csv
+decision_tree/data.csv
