@@ -1,34 +1,38 @@
-# arabOrJew_machineLearning
-to activate:
+# Arab or Jew — Machine Learning
 
-(inside bash) => chmod +x setup.sh
+## Setup & Usage
 
-(inside bash) => ./setup.sh
+```bash
+chmod +x setup.sh
+./setup.sh
+```
 
-(inside bash) => py decision_tree/decisionTree.py / (inside bash) => py logistic_regression/logisticRegression.py 
-//depending on which version you want to activate, the logisticRegression or the decisionTree
-//personally I recommend the logistic regression method since it can check what part of your new has more jewish / arab connection 
+Then run your preferred model:
 
+```bash
+py decision_tree/decisionTree.py
+# or
+py logistic_regression/logisticRegression.py
+```
 
-names.csv example:
+> **Recommendation:** The logistic regression method is preferred — it can break down which parts of a name have stronger Arabic or Jewish connections.
 
+## Dataset Examples
+
+**`names.csv`**
+```
 Name,Nationality,Position
 איהאב,arab,0
 אבו לבדה,arab,1
-עבדאללה,arab,0
-מפארגה,arab,1
-יוסף,arab,0
-ברהם,arab,1
-אסראא,arab,0
-עיאד,arab,1
-פתחי,arab,0
+מאור,jewish,0
+חדי,jewish,1
+...
+```
 
-data.csv example:
+**`data.csv`**
+```
 Name,Nationality
 איהאב אבו לבדה,arab
-עבדאללה מפארגה,arab
-יוסף ברהם,arab
-אסראא עיאד,arab
-פתחי אבו צלאח,arab
-מוחמד אלכורדי,arab
-מועתצם אלעסאכרה,arab
+מאור חדי,jewish
+...
+```
