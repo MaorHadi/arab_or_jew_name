@@ -1,16 +1,13 @@
 # arabOrJew_machineLearning
-Has 1280 lines of data as of 31/07/2025
-0.928125 score on the logisticRegression
-
 to activate:
 
 (inside bash) => chmod +x setup.sh
 
 (inside bash) => ./setup.sh
 
-(inside bash) => py decisionTree.py / (inside bash) => py logisticRegression.py 
+(inside bash) => py decision_tree/decisionTree.py / (inside bash) => py logistic_regression/logisticRegression.py 
 //depending on which version you want to activate, the logisticRegression or the decisionTree
-//personally I recommend the logistic regression method since it can check what part of your new has more jewise / arab connection 
+//personally I recommend the logistic regression method since it can check what part of your new has more jewish / arab connection 
 
 
 names.csv example:
